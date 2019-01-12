@@ -1,0 +1,419 @@
+@import "fonts"
+@import "libs"
+@import "vars"
+
+*::-webkit-input-placeholder
+	color: #666
+	opacity: 1
+
+*:-moz-placeholder
+	color: #666
+	opacity: 1
+
+*::-moz-placeholder
+	color: #666
+	opacity: 1
+
+*:-ms-input-placeholder
+	color: #666
+	opacity: 1
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid
+	color: #666
+body input:required:valid,
+body textarea:required:valid
+	color: #666
+
+html, body
+	min-height: 100%
+	
+
+
+body
+	font-size: 16px
+	min-width: 320px
+	position: relative
+	line-height: 1.75
+	font-family: $default-font
+	overflow-x: hidden
+	opacity: 1
+	background-color: #EAE7E7
+	// min-height: 100%
+q
+	quotes: "\00ab" "\00bb"; 
+
+.center
+	text-align: center
+.text
+	p
+		text-indent: 1.5em 
+.text-center
+	text-align: center
+
+
+// .ishome
+.site-header
+	min-height: 65px 
+
+.top-line
+	position: absolute 
+	width: 100%
+	z-index: 1
+
+// логотип в шапке
+.logo
+  img
+   float: left
+   height: 55px
+   width: 45px
+   margin-left: 20px
+   margin-top: 5px 
+
+section, header
+  position: relative 
+  -webkit-background-size: cover 
+  -o-background-size: cover 
+  background-size: cover 
+
+
+.img-responsive
+	display: block
+	max-width: 100%
+	height: auto
+
+.hamburger
+	right: 0
+	position: absolute  
+	top: 5px
+	.hamburger-box
+		 width: 50px 
+		 
+
+	
+
+.fa-vk:hover
+	// color:  #FFFFFF 
+	font-size: 18px  
+	-webkit-transition: all.20s ease 
+	-moz-transition: all.20s ease 
+	-ms-transition: all.20s ease 
+	-o-transition: all.20s ease 
+	transition: all.20s ease 
+	text-decoration: none
+	
+	
+.fa-instagram:hover
+	color:  #FDC654 //#F79D45 //#E6E6E6
+	font-size: 18px  
+	-webkit-transition: all.10s ease 
+	-moz-transition: all.10s ease 
+	-ms-transition: all.10s ease 
+	-o-transition: all.10s ease 
+	transition: all.10s ease 
+	text-decoration: none
+
+	
+.fa-facebook:hover
+	// color:  red //#E6E6E6
+	font-size: 18px  
+	-webkit-transition: all.10s ease 
+	-moz-transition: all.10s ease 
+	-ms-transition: all.10s ease 
+	-o-transition: all.10s ease 
+	transition: all.10s ease 
+	text-decoration: none
+	
+.fa-youtube:hover
+	color:  red //#E6E6E6
+	font-size: 18px  
+	-webkit-transition: all.10s ease 
+	-moz-transition: all.10s ease 
+	-ms-transition: all.10s ease 
+	-o-transition: all.10s ease 
+	transition: all.10s ease 
+	text-decoration: none
+
+		
+		
+
+#my-menu
+	background-color: #5d76cb
+	
+//title в mmenu
+.mm-menu .mm-navbar a, .mm-menu .mm-navbar > *
+	color: white
+	font-size: 18px 
+	   
+.mm-listview > li:not(.mm-divider):after
+	display: none
+// .mm-listview > li
+// 	padding-left: 150px 
+
+.mm-listview, .mm-listview > li
+	font-size: 20px
+	line-height: 40px 
+
+.hidden-menu-icon
+	padding-left: 150px  
+	margin-top: 50px 
+
+.otr
+	padding-top: 15px 
+
+ul
+	list-style-type: none
+	float: left
+	display: flex
+	li
+		margin: 5px 20px
+		a
+			color: white
+			
+			-webkit-transition: all.6s ease 
+			-moz-transition: all.6s ease 
+			-ms-transition: all.6s ease 
+			-o-transition: all.6s ease 
+			transition: all.6s ease  
+			
+a:hover
+	color: #CCCCCC //#E6E6E6
+	-webkit-transition: all.6s ease 
+	-moz-transition: all.6s ease 
+	-ms-transition: all.6s ease 
+	-o-transition: all.6s ease 
+	transition: all.6s ease 
+	text-decoration: none
+//mmenu-end
+	
+// слайдер
+.cont
+	padding: 0px 
+	
+
+.slide
+	img
+		position: absolute 
+		top: 0
+		width: 100%
+		// height: 100% 
+		position: top 
+		
+	:hover
+		color: #CCCCCC //#E6E6E6
+		-webkit-transition: all.6s ease 
+		-moz-transition: all.6s ease 
+		-ms-transition: all.6s ease 
+		-o-transition: all.6s ease 
+		transition: all.6s ease 
+		text-decoration: none
+// слайдер-end
+
+//asaide
+aside
+	background: red
+	height: 500px
+	float: right
+	
+//
+
+// стр нааши отряды
+
+.infootryad
+	h1
+		text-align: center
+		margin-top: 0px 
+		
+.stroy, .ped, .servo, .sx, .med, .prov
+	h3
+		text-align: center
+.med
+	// padding-right: 0px
+	// margin-left: 5px 
+	// margin-right: 0px 
+.ped
+	img
+		padding-top: 5px
+		margin-bottom: 5px
+// 
+
+// страница стройотрядов
+
+.kommand
+	margin-top: 30px
+	
+	img
+		margin-left: 100px 
+		width: 60%
+		-webkit-border-radius: 200px 
+		 border-radius: 200px
+
+.imgotr
+	img
+		width: 80%
+		margin-top: 40px
+		margin-left: 110px 
+		-webkit-border-radius: 10px 
+		 border-radius: 10px  
+.crimea-str
+	img
+		width: 150px
+		height: 150px
+		float: left 
+		margin-right: 7px 
+// 
+
+//страница вожатые
+.CpO_sokol, .CpO_energy, .CpO_kondor
+	a
+		img
+			-webkit-border-radius: 140px 
+			border-radius: 140px 
+			margin-left: 60px  
+	p
+		text-align: center 
+.CpO_legion
+	a
+		
+		img
+			-webkit-border-radius: 10px 
+			border-radius: 10px 
+			margin-left: 60px
+			
+	p
+		text-align: center
+//
+
+//servis
+.red
+	img
+		width: 100% 
+		-webkit-border-radius: 2px 
+		border-radius: 2px 
+.info_servis
+	p
+		font-size: 15px
+		line-height: 1.5em
+		text-align:  justify
+		  
+
+	
+//
+
+//страница О Нас 
+
+.VV> img
+	// width: 50%
+	// height: 50% 
+	-webkit-border-radius: 20px 
+	border-radius: 20px 
+	// position: relative;
+	// margin-left: 90px 
+	max-width: 60%;
+	max-height: 60%;
+
+		 
+.DR> img
+	-webkit-border-radius: 20px 
+	border-radius: 20px 
+	// position: relative;
+	// margin-left: 90px 
+	max-width: 60%;
+	max-height: 60%;
+
+	
+.AD> img
+	-webkit-border-radius: 20px 
+	border-radius: 20px 
+	// position: relative;
+	// margin-left: 90px 
+	max-width: 60%;
+	max-height: 60%;
+
+.nameleader
+	// text-align: center 
+	margin-bottom: 5px
+.posleader_kom, .posleader_komis, .posleader_pred, .info-onas
+	text-align: center
+	
+	min-height: 60px 
+	 
+.phone, .e-mail
+	margin-left: 20px 
+	.fa
+		margin-right: 10px
+.info
+	min-height: 120px 
+
+.h1
+	margin-top: 0px 
+	margin-bottom: 2px 
+	
+.h3
+	margin-top: -10px 
+	margin-bottom: 30px 
+	
+.info-onas
+	h3
+		font-weight: normal 
+	
+
+	
+
+// 
+
+//footer
+#my-footer
+	background-color: #5d76cb
+	// position: absolute
+	// bottom: 0
+	// width: 100% 
+	// height: 70px 
+	
+.logo_rso
+	img
+	   float: left
+	   height: 55px
+	   width: 55px
+	   margin-top: 10px 
+	   margin-left: 20px
+	   
+
+	
+
+.navigator> ul
+		float: left
+		display: block
+		padding-left: 0px  
+.navigator> ul> li
+	font-size: 12px
+	line-height: 10px
+	margin-top: 0px  
+.navigator> ul> li> a:hover
+	color:   #CCCCCC //grey // #E6E6E6 
+	-webkit-transition: all.6s ease 
+	-moz-transition: all.6s ease 
+	-ms-transition: all.6s ease 
+	-o-transition: all.6s ease 
+	transition: all.6s ease 
+	text-decoration: none
+	
+.social
+	display: block 
+	// font-size: 16px 
+
+.social-nav
+	margin-top: 3px
+
+.pazpab
+
+	margin-top: 10px   
+
+
+	
+//footer-end
+
+
+ 		
+
+@import "media" // Всегда в конце
